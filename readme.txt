@@ -1,17 +1,17 @@
 === securelogin ===
 Contributors: Way2Web
-Tags: securelogin.nu
+Tags: SecureLogin
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: 4.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Creates a shortcode that outputs a login form to access the application on securelogin.nu
+Creates a shortcode that outputs a login form to access the application on SecureLogin
 
 == Description ==
 
-Creates a shortcode that outputs a login form to access the application on securelogin.nu
+Creates a shortcode that outputs a login form to access the application on SecureLogin
 
 == Installation ==
 
@@ -20,6 +20,10 @@ Creates a shortcode that outputs a login form to access the application on secur
 3. Additionally you can supply colours for the login button to match your style. Explained on the plugin page!
 
 == Changelog ==
+
+= 1.1 =
+[added] SecureLogin logo as plugin icon
+[updated] changed description name from securelogin.nu to SecureLogin
 
 = 1.0 =
 * Initial version

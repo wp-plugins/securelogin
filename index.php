@@ -2,8 +2,8 @@
 /**
  * Plugin Name: SecureLogin
  * Plugin URI:  www.way2web.nl
- * Description: Login to secure login
- * Version: 0.1
+ * Description: Login form for SecureLogin
+ * Version: 1.1
  * Author: Way2Web
  * Author URI: http://www.way2web.nl/
  * License: GPL2
