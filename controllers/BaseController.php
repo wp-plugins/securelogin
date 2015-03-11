@@ -35,24 +35,33 @@ class BaseController {
             'text' => '#FFF',
         ), $atts);
 
+        $username = "Username";
+        $password = "Password";
+        $login = "Login";
+        if (get_locale() == "nl_NL") {
+            $username = "Gebruikersnaam";
+            $password = "Wachtwoord";
+            $login = "Inloggen";
+        }
+
         $this->assets();
         $postUrl = 'https://' . $attr['subdomein'] . '.securelogin.nu/login/exec';
         $html = array();
         $html[] = '<form method="post" action="' . $postUrl . '" class="sl-form" target="_blank">';
         $html[] = '<div class="sl-group">
-				   	   <label class="sl-label">Gebruikersnaam</label>
+				   	   <label class="sl-label">' . $username . '</label>
 				   	   <div class="sl-controls">
 				   	   	   <input type="text" name="username" id="username" value="" class="sl-input">
 				   	   </div>
 				   </div>
 				   <div class="sl-group">
-				   	   <label class="sl-label">Wachtwoord</label>
+				   	   <label class="sl-label">' . $password . '</label>
 				   	   <div class="sl-controls">
 				   	   	   <input type="password" name="password" id="password" class="sl-input"><br>
 				   	   </div>
 				   </div>
 				   <div class="sl-group">
-				       <button type="submit" class="btn-login" style="background-color: ' . $attr['background'] . '; color: ' . $attr['text'] . ';">Inloggen</button>
+				       <button type="submit" class="btn-login" style="background-color: ' . $attr['background'] . '; color: ' . $attr['text'] . ';">' . $login . '</button>
 				   </div>';
         $html[] = '</form>';
 

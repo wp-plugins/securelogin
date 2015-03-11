@@ -21,6 +21,9 @@ Creates a shortcode that outputs a login form to access the application on Secur
 
 == Changelog ==
 
+= 1.2 =
+[added] based on WordPress install, english or dutch language in frontend.
+
 = 1.1 =
 [added] SecureLogin logo as plugin icon
 [updated] changed description name from securelogin.nu to SecureLogin
