@@ -2,8 +2,8 @@
 Contributors: Way2Web
 Tags: SecureLogin
 Requires at least: 4.1
-Tested up to: 4.1
-Stable tag: 4.1
+Tested up to: 4.*
+Stable tag: 4.*
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,9 @@ Creates a shortcode that outputs a login form to access the application on Secur
 3. Additionally you can supply colours for the login button to match your style. Explained on the plugin page!
 
 == Changelog ==
+
+= 1.3 =
+[updated] version number & added plugin icon
 
 = 1.2 =
 [added] based on WordPress install, english or dutch language in frontend.

@@ -73,4 +73,3 @@ class BaseController {
         wp_enqueue_style('securelogin', $cssPath);
     }
 }
-
